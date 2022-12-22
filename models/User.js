@@ -1,5 +1,6 @@
 //user schema
 //model은 schema를 감싸주는 역할
+//userSchema스키마를 user모델로 감싸주었당
 const mongoose = require("mongoose");
 
 const userSchema = mongoose.Schema({
