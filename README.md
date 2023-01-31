@@ -1,6 +1,6 @@
 express 서버 
 몽고 DB 연결 
-몽구스 설치(npm install mongoose --save)-몽고DB를 편하게 쓸수 잇는
+몽구스 설치(npm install mongoose --save)-몽고DB를 편하게 쓸수 있게 해준다. 
 
 [몽고디비 user]
 아:zn

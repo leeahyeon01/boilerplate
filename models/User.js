@@ -24,10 +24,12 @@ const userSchema = mongoose.Schema({
   },
   //회원이미지
   image: String,
+
   //토큰으로 유효성 관리
   token: {
     type: String,
   },
+
   //토큰의 유효기간
   tokenExp: {
     type: Number,
@@ -38,4 +40,6 @@ const userSchema = mongoose.Schema({
 const User = mongoose.model("User", userSchema);
 
 //모델을 내보내준다.
-module.export = { User };
+
+//  exports default User;
+ module.exports = { User };
